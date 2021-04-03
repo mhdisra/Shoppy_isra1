@@ -8,11 +8,11 @@
         android:label="Shoppy_isra"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.App_ferdian">
+        android:theme="@style/Theme.Shoppy_isra">
         <activity
             android:name="com.tugasday1.shoppy_isra.activity.LoginActivity"
             android:label="Shoppy_isra"
-            android:theme="@style/Theme.App_ferdian.NoActionBar">
+            android:theme="@style/Theme.Shoppy_isra.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.tugasday1.shoppy_isra.activity.MainActivity"
-            android:theme="@style/Theme.App_ferdian.NoActionBar"/>
+            android:theme="@style/Theme.Shoppy_isra.NoActionBar"/>
     </application>
 
 </manifest>
